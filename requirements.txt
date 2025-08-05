@@ -37,8 +37,3 @@ json5>=0.9.14
 
 # Type hints
 typing-extensions>=4.7.0
-
-# Web Server & API (for web_server.py)
-fastapi>=0.104.1
-uvicorn[standard]>=0.24.0
-pydantic>=2.5.0

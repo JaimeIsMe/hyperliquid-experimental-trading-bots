@@ -49,8 +49,6 @@ Then edit `.env` and fill in your actual values:
 **⚠️ IMPORTANT**: Never share your `.env` file or commit it to version control!
 
 ### 3. Run a Bot
-
-#### Option A: Command Line (Traditional)
 ```bash
 # Ultimate Scalping Bot
 python3 ultimate_scalping_bot.py
@@ -61,22 +59,6 @@ python3 order_book_hunter.py
 # Experimental Color Trader
 python3 experimental_color_trader.py
 ```
-
-#### Option B: Web Interface (Recommended for Color Trader) 🆕
-```bash
-# Launch the web dashboard for Color Trader
-python3 start_web_interface.py
-```
-
-The web interface provides:
-- 🎨 **Real-time color detection visualization**
-- 📊 **Live trading dashboard with position status**
-- 🖱️ **Interactive screen region calibration**
-- 📈 **Trade history and P&L tracking**
-- 🎛️ **Easy bot controls (start/stop/settings)**
-- 📱 **Modern responsive web UI**
-
-Access the dashboard at: `http://localhost:8000`
 
 ## 📚 Documentation
 
@@ -103,8 +85,7 @@ These bots use high leverage (20x-40x) and are designed for experienced traders.
 - ✅ **High Leverage**: Efficient capital utilization (20x-40x)
 - ✅ **Real-time Data**: WebSocket and REST API integration
 - ✅ **Error Handling**: Robust error handling and position cleanup
-- 🆕 **Web Dashboard**: Beautiful real-time web interface for Color Trader
-- 🆕 **Visual Trading**: First-of-its-kind screen color detection system
+- ✅ **Visual Trading**: Innovative screen color detection system
 
 ## 🎯 Strategies Explained
 
