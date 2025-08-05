@@ -1,0 +1,39 @@
+# Hyperliquid Trading Bots Requirements
+# =====================================
+# Dependencies for ultimate_scalping_bot.py, order_book_hunter.py, and experimental_color_trader.py
+
+# Core Hyperliquid SDK
+hyperliquid-python-sdk>=0.17.0
+
+# Ethereum account management and signing
+eth-account>=0.10.0
+eth-utils>=2.3.0
+
+# HTTP requests and async
+requests>=2.31.0
+aiohttp>=3.9.0
+
+# WebSocket support (for order_book_hunter.py)
+websockets>=10.4
+
+# Data processing and numerical operations
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# Message packing for API signing
+msgpack>=1.0.0
+
+# Screen capture and image processing (for experimental_color_trader.py)
+pyautogui>=0.9.54
+Pillow>=10.0.0
+opencv-python>=4.8.0
+scikit-learn>=1.3.0
+
+# JSON handling
+json5>=0.9.14
+
+# Type hints
+typing-extensions>=4.7.0
