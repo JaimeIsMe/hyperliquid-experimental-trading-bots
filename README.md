@@ -36,10 +36,17 @@ pip install -r requirements.txt
 ```
 
 ### 2. Environment Setup
-Create a `.env` file in the project root:
-```env
-HYPERLIQUID_PRIVATE_KEY=your_private_key_here
+Copy the example environment file and configure it:
+```bash
+cp .env.example .env
 ```
+
+Then edit `.env` and fill in your actual values:
+- `HYPERLIQUID_PRIVATE_KEY`: Your Hyperliquid private key (64-character hex string)
+- `WALLET_ADDRESS`: Your wallet address (0x...)
+- `LIVE_TRADING`: Set to `true` when ready for real trading (starts as `false`)
+
+**⚠️ IMPORTANT**: Never share your `.env` file or commit it to version control!
 
 ### 3. Run a Bot
 ```bash
